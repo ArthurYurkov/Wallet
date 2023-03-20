@@ -2,7 +2,7 @@
   "name": "react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ArthurYurkov/Wallet",
+  "homepage": "https://arthuryurkov.github.io/Wallet/",
   "dependencies": {
     "@emotion/styled": "^11.10.6",
     "@testing-library/jest-dom": "^5.16.3",
