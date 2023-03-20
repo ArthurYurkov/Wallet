@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/ArthurYurkov/Wallet/static/css/main.7acaea2f.css",
-    "main.js": "/ArthurYurkov/Wallet/static/js/main.956f2568.js",
-    "index.html": "/ArthurYurkov/Wallet/index.html",
-    "main.7acaea2f.css.map": "/ArthurYurkov/Wallet/static/css/main.7acaea2f.css.map",
-    "main.956f2568.js.map": "/ArthurYurkov/Wallet/static/js/main.956f2568.js.map"
+    "main.css": "/Wallet/static/css/main.7acaea2f.css",
+    "main.js": "/Wallet/static/js/main.6b4dd995.js",
+    "static/media/Frame.svg": "/Wallet/static/media/Frame.558b0627b098c62d872c29d5e142227b.svg",
+    "static/media/Logo.svg": "/Wallet/static/media/Logo.2e8c127a95c7317a83a5e9e275a21ef5.svg",
+    "index.html": "/Wallet/index.html",
+    "static/media/lock.svg": "/Wallet/static/media/lock.3200e2a11f5e93f695d76294168b10e2.svg",
+    "static/media/emailIcon.svg": "/Wallet/static/media/emailIcon.95f2184b21b0070ae67022324decc032.svg",
+    "main.7acaea2f.css.map": "/Wallet/static/css/main.7acaea2f.css.map",
+    "main.6b4dd995.js.map": "/Wallet/static/js/main.6b4dd995.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.956f2568.js"
+    "static/js/main.6b4dd995.js"
   ]
 }
