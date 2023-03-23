@@ -1,15 +1,13 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
-  margin-top: 80px;
-
   @media screen and (min-width: 630px) {
     margin-bottom: 60px;
     align-items: center;
+    margin-top: 80px;
   }
   @media screen and (min-width: 768px) {
     margin-top: 0px;
-    height: 65vh;
   }
   @media screen and (min-width: 1280px) {
     margin-bottom: 0px;
@@ -24,12 +22,12 @@ export const Container = styled.div`
 
 export const Form = styled.form`
   background-color: #fff;
-  padding: 40px 70px;
+  padding: 40px 50px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   margin-bottom: 60px;
   @media screen and (min-width: 768px) {
     margin-bottom: 0px;
@@ -66,19 +64,24 @@ export const InputContainer = styled.label`
   border-bottom: 1px solid #e0e0e0;
   display: flex;
   justify-content: flex-start;
-  align-items: stretch;
-  flex-direction: row;
+  align-items: center;
 
+  flex-direction: row;
   width: 270px;
+  height: 40px;
+  &:hover {
+    border-bottom: 1px solid #24cca7;
+  }
   @media screen and (min-width: 768px) {
     width: 100%;
   }
 `;
 
 export const InputIcon = styled.img`
-  width: 24px;
   height: 24px;
-  fill: tomato;
+  @media screen and (min-width: 768px) {
+    height: auto;
+  }
 `;
 
 export const Input = styled.input`
