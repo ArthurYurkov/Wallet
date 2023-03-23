@@ -1,51 +1,60 @@
 import styled from '@emotion/styled';
 
-export const FormPart = styled.div`
+export const Container = styled.div`
+  margin-top: 80px;
   @media screen and (min-width: 768px) {
-    width: 533px;
-    height: 468px;
+    margin-top: 0px;
+    margin-bottom: 60px;
   }
   @media screen and (min-width: 1280px) {
+    margin-bottom: 0px;
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(25px);
-    height: 100vh;
-    width: 55vw;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 `;
 
-export const Container = styled.div`
-  background-color: #fff;
-  margin-top: 80px;
-  @media screen and (min-width: 768px) {
-    width: 533px;
-    height: 468px;
-    border-radius: 20px;
-    margin-top: 0px;
-  }
-`;
-
 export const Form = styled.form`
+  background-color: #fff;
+  padding: 70px 60px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
+    width: 410px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 0px;
+  }
 `;
 
 export const Logo = styled.div`
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   height: 30px;
-
+  & img {
+    height: 100%;
+  }
+  & h1 {
+    font-size: 23px;
+  }
   @media screen and (min-width: 768px) {
     height: 40px;
+    & h1 {
+      font-size: 33px;
+    }
   }
 `;
 
@@ -55,12 +64,10 @@ export const InputContainer = styled.label`
   justify-content: flex-start;
   align-items: stretch;
   flex-direction: row;
-  padding-bottom: 5px;
-  padding-left: 10px;
 
   width: 270px;
   @media screen and (min-width: 768px) {
-    width: 410px;
+    width: 100%;
   }
 `;
 
@@ -79,4 +86,5 @@ export const Input = styled.input`
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
+  width: 100%;
 `;

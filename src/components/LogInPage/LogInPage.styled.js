@@ -5,8 +5,9 @@ export const Container = styled.div`
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  height: 100vh;
+
   @media screen and (min-width: 1280px) {
+    width: 100vw;
     flex-direction: row;
     justify-content: space-evenly;
   }
@@ -18,8 +19,7 @@ export const ImgPart = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 533px;
-    gap: 30px;
+    gap: 20px;
     margin-top: 60px;
     margin-bottom: 50px;
   }
@@ -28,15 +28,14 @@ export const ImgPart = styled.div`
     display: flex;
     margin-bottom: 0px;
     gap: 10px;
-    width: 45vw;
+    width: 80vw;
   }
 `;
 
 export const Image = styled.img`
   display: block;
   @media screen and (min-width: 768px) {
-    width: 260px;
-    height: 250px;
+    width: 30vw;
   }
   @media screen and (min-width: 1280px) {
     width: 435px;
